@@ -29,7 +29,7 @@ img{
 
 .containe{
     /*width: clamp(375px, 19.531vw, 1440px);*/
-    column-count: 2;
-    column-width: 19.531vw;
     background-color: var(--White);
+    display: grid;
+    grid-template-columns: minmax(19.531vw, 300px);
 }
